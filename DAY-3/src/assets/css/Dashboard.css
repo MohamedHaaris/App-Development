@@ -1,0 +1,53 @@
+/* AdminDashboard.css */
+
+.admin-dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .dashboard-header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logout-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 250px;
+    padding: 1rem;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  
+  .dashboard-content {
+    padding: 2rem;
+    flex-grow: 1;
+  }
+  
+  /* Style navigation links when active */
+  .sidebar li.active {
+    font-weight: bold;
+    color: #007BFF;
+  }
+  
+ 
